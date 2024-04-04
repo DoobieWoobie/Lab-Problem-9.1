@@ -11,4 +11,9 @@ int main()
 		randInt[i] = rand() % 9999;
 		cout << randInt[i] << "	  ";
 	}
+	cout << " " << endl;
+	for (int i = 0; i < 10; i = i + 2)
+	{
+		cout << randInt[i] << "	  ";
+	}
 }
