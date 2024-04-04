@@ -8,12 +8,21 @@ int main()
 	int randInt[10];
 	for (int i = 0; i < 10; i++)
 	{
-		randInt[i] = rand() % 9999;
+		randInt[i] = (rand() % 9000) + 1000;
 		cout << randInt[i] << "	  ";
-	}
+	} 
 	cout << " " << endl;
 	for (int i = 0; i < 10; i = i + 2)
 	{
 		cout << randInt[i] << "	  ";
+	}
+	cout << " " << endl;
+	for (int i = 0; i < 10; i++)
+	{
+		int p = randInt[i];
+		if (randInt[i] % 2 == 0)
+		{
+			cout << randInt[i] << "	  ";
+		}
 	}
 }
