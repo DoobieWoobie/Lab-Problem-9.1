@@ -25,4 +25,9 @@ int main()
 			cout << randInt[i] << "	  ";
 		}
 	}
+	cout << " " << endl;
+	for (int i = 9; i >= 0; i--)
+	{
+		cout << randInt[i] << "	  ";
+	}
 }
