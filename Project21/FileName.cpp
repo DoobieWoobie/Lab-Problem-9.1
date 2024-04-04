@@ -30,4 +30,9 @@ int main()
 	{
 		cout << randInt[i] << "	  ";
 	}
+	cout << " " << endl;
+	for (int i = 0; i <10; i = i + 9)
+	{
+		cout << randInt[i] << "	  ";
+	}
 }
